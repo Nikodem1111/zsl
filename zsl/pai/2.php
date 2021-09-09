@@ -9,7 +9,7 @@ $x=1;
 $y=1.0;
 echo gettype($x);//integer
 echo gettype($y);//double
-if (x==$y); {
+if ($x==$y) {
   echo "równe";
 }else {
   echo "różne";
