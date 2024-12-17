@@ -1,21 +1,27 @@
 ﻿  ConsoleApplication14.cpp
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(150,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(181,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(211,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(240,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(270,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(300,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(361,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(365,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(369,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(373,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(377,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(381,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(389,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(393,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(398,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(402,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(407,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(411,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
-C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(415,1): warning C4715: "check”: niewszystkie ścieżki kodu zwracają wartość
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(44,58): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(44,71): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(45,58): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(45,71): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(46,58): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(46,71): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(176,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(207,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(237,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(266,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(296,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(326,25): warning C4244: "=": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(394,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(398,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(402,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(406,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(410,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(414,17): warning C4244: "inicjowanie": konwersja z "double" do "float", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(422,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(426,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(431,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(435,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(440,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(444,20): warning C4244: "return": konwersja z "float" do "int", możliwa utrata danych
+C:\Users\tstaw\source\repos\ConsoleApplication14\ConsoleApplication14\ConsoleApplication14.cpp(448,1): warning C4715: "check”: niewszystkie ścieżki kodu zwracają wartość
   ConsoleApplication14.vcxproj -> C:\Users\tstaw\source\repos\ConsoleApplication14\x64\Debug\ConsoleApplication14.exe

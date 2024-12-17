@@ -19,6 +19,9 @@ void Menu() {
     std::cout << "5 - przelicz Kelwin -> Celsius" << std::endl;
     std::cout << "6 - przelicz Kelwin -> Fahr" << std::endl;
     std::cout << "7 - pokaz historie" << std::endl;
+    std::cout << "8- usun" << std::endl;
+    std::cout << "9 - dodaj losowo" << std::endl;
+
     std::cout << "-1 - zakończ działanie programu" << std::endl;
 }
 void Menu_2() {
@@ -27,6 +30,32 @@ void Menu_2() {
     std::cout << "3 - Kelwin" << std::endl;
     std::cout << "4 - cała historia" << std::endl;
 
+}
+void uzupelnienie(int u) {
+    if (dataCounter * 2 + u * 2 > 6) {
+        std::cout << "Nie ma wystarczająco miejsca na nowe wpisy." << std::endl;
+        return;
+    }
+
+    for (int i = 0; i < u; i++) {
+        char unit = "CFK"[rand() % 3];
+        int temp = (unit == 'C') ? (rand() % 1000 - 273) : (rand() % 1000);
+        double converted;
+        char targetUnit = (unit == 'C') ? "FK"[rand() % 2] : ((unit == 'F') ? "CK"[rand() % 2] : "CF"[rand() % 2]);
+
+        switch (unit) {
+        case 'C': converted = (targetUnit == 'F') ? CtoF(temp) : CtoK(temp); break;
+        case 'F': converted = (targetUnit == 'C') ? FtoC(temp) : FtoK(temp); break;
+        case 'K': converted = (targetUnit == 'C') ? KtoC(temp) : KtoF(temp); break;
+        }
+
+        history[dataCounter++] = temp;
+        units[dataCounter - 1] = unit;
+        history[dataCounter++] = converted;
+        units[dataCounter - 1] = targetUnit;
+    }
+
+    std::cout << "Dodano " << u << " losowych wpisów!" << std::endl;
 }
 void removeHistory(int usun) {
     if (usun < 1 || usun >(dataCounter / 2)) {
@@ -350,6 +379,13 @@ int main()
             std::cout << "Podaj numer wpisu do usunięcia: ";
             std::cin >> usun;
             removeHistory(usun);
+            clear();
+            break;
+        case 9:
+            int ile_los;
+            std::cout << "ile ma sie samo uzupełnić?"<<std::endl;
+            std::cin >> ile_los;
+            uzupelnienie(ile_los);
             clear();
             break;
         }
